@@ -21,7 +21,7 @@ class QuarterProfileController extends Controller
         $cities = DB::select('select * from districts');
         $quarters = DB::select('select * from quarters where quarters.id = '.$users[0]->quarter_id);
         $streets = DB::select('select * from streets where streets.quarter_id = '.$users[0]->quarter_id);
-//        dd($streets);
+        dd($streets);
         $quarterFiles = DB::select('select * from quarterfiles ');
         // $datas = Excel::toArray(new UsersImport, $users[5]->file);
 
