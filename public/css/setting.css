@@ -1,0 +1,18 @@
+/* body{
+    background-color: aquamarine;
+} */
+.quarter-form{
+    margin-top: 50px;
+    margin-left: 25%;
+    width: 50%;
+    box-shadow: 4px 6px 20px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 4px 6px 20px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 4px 6px 20px 0px rgba(0,0,0,0.75);
+}
+.quarter-form .btn{
+    margin-bottom: 10px;
+
+}
+.index-body .row{
+    margin-bottom: 30px;
+}
